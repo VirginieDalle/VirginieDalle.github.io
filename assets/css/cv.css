@@ -1,0 +1,133 @@
+
+body{
+  color: white;
+  font-family: Sawasdee;
+  background-image: url(../img/fond2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  background-color: #e8969c;
+  color: black;
+}
+.fas{
+  color:#e8969c;
+  font-size: 2em;
+}
+#navbarColor01{
+  padding-left: 30%;
+}
+img{
+  /* padding-left:15%; */
+  margin: 4%;
+}
+
+h1{
+  font-family: Rachella Script;
+  font-size: 6vw;
+  color: #e8969c;
+  margin-top: 20%;
+  padding-left: 21%;
+}
+h2{
+  font-family: Rachella Script;
+  color: #e8969c;
+  margin-top: 30%;
+  text-align: center;
+  line-height: 3em;
+}
+h3{
+  font-family: Rachella Script;
+  color: #e8969c;
+  margin-top: 10%;
+  text-align: center;
+  line-height: 3em;
+}
+li{
+  list-style-type: none;
+  font-weight: bold;
+}
+.text{
+  font-size: 20px;
+}
+.card{
+  background-color: #E8969C;
+}
+
+.btn{
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+.black{
+  color:black;
+}
+.progress{
+  width:60%;
+  margin-left: 15%
+}
+/* .progressbar{
+  margin-left: 50%;
+} */
+
+#form{
+  text-align: center;
+}
+#exp{
+  text-align: center;
+}
+
+h4{
+  color:black;
+}
+.write{
+  color:black;
+}
+.presentation{
+  font-size: 20px;
+  font-weight: bold;
+}
+.portrait{
+  height: 250px;
+}
+.bold{
+  font-size: 20px;
+  font-weight: bold;
+}
+@media(max-width: 768px){
+  h1{
+    display: none;
+  }
+  h2,h3{
+    font-size: 10vw;
+  }
+  #info{
+    margin-top: 45%;
+
+  }
+  .carousel{
+    height:40%;
+    width:80%;
+    margin-left:10%;
+
+  }
+}
+@media(min-width: 768px){
+  h1{
+    display: block;
+  }
+  h2,h3{
+    font-size: 4vw;
+  }
+  #info{
+    margin-top: 80%;
+
+  }
+  .carousel{
+    height:50%;
+    width:50%;
+    margin-left:25%;
+
+  }
+}
